@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "zak98",
+    "password": "password",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  },
+  "test": {
+    "username": "zak98",
+    "password": "password",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  },
+  "production": {
+    "username": "zak98",
+    "password": "password",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  }
+}
