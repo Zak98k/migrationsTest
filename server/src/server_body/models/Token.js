@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
 
     });
     Token.associate = function (models) {
-        Token.belongsTo(models.Users,{foreignKey:userId, targetKey:id} )
+        Token.belongsTo(models.Users,{foreignKey:'userId', targetKey:'id'} )
     };
 
     return Token;

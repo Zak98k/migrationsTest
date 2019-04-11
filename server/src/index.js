@@ -1,6 +1,6 @@
-const express = require('express');
-const router =require( './server_body/router/index');
-// import cors from 'cors';
+import express from 'express';
+import router from './server_body/router/index';
+import cors from 'cors';
 //import errorHandler from './server/utils/errorHandler'
 
 const PORT = process.env.PORT || 3000;
@@ -17,4 +17,6 @@ app.use((req, res) => {
 //app.use(errorHandler);
 
 
-app.listen(PORT);
+app.listen(PORT, () => {
+    console.log("Server started on port - " + PORT)
+});

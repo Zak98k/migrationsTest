@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
     "bcrypt": "^3.0.5",
     "cors": "^2.8.5",
     "express": "^4.16.4",
@@ -14,12 +17,14 @@
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
     "sequelize": "^5.2.13",
-    "sequelize-cli": "^5.4.0"
+    "sequelize-cli": "^5.4.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "nodemon ./src/index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "build": "babel src -d dist",
+    "test": "test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
