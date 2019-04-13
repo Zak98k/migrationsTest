@@ -1,0 +1,8 @@
+module.exports = (err, req, res, next) => {
+    console.log("ERROR Handler ");
+    if (!err.status) {
+        next();
+    } else {
+        res.status(err.status).send(err);
+    }
+};

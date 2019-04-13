@@ -9,6 +9,7 @@ const validationMiddleware = require("../utils/validationMiddleware");
 
 router.get('/user', userController.getAllUsers);
 
-router.post('/user_create',)
+router.post('/user',validationMiddleware.existEmail, validationMiddleware.body, userController.createUser);
+router.post('/auth', validationMiddleware.body, userController.auth);
 
 module.exports = router;

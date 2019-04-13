@@ -24,8 +24,8 @@ module.exports = (sequelize, DataTypes) => {
             }
         }
     });
-    Users.associate = function (models) {
-        Users.hasOne(models.Token, {foreignKey: 'UserId', targetKey: 'id'});
-    };
+    // Users.associate = function (models) {
+    //     Users.hasOne(models.Tokens, {foreignKey: 'UserId', targetKey: 'id'});
+    // };
     return Users;
 };

@@ -1,6 +1,5 @@
-
 module.exports = (sequelize, DataTypes) => {
-    const Token = sequelize.define('Token', {
+    const Tokens = sequelize.define('Tokens', {
         // id: {
         //     allowNull: false,
         //     autoIncrement: true,
@@ -10,20 +9,21 @@ module.exports = (sequelize, DataTypes) => {
         userId: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            unique: true,
-            validate: {
-                isEmail: true,
+            onDelete: 'CASCADE',
+            references: {
+                key: 'id',
+                model: 'Users'
             }
         },
-        token:{
+        token: {
             type: DataTypes.STRING,
-            allowNull:false
+            allowNull: false
         }
 
     });
-    Token.associate = function (models) {
-        Token.belongsTo(models.Users,{foreignKey:'userId', targetKey:'id'} )
+    Tokens.associate = function (models) {
+        Tokens.belongsTo(models.Users, {foreignKey: 'userId', targetKey: 'id'})
     };
 
-    return Token;
+    return Tokens;
 };

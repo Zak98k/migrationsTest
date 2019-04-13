@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     up: (queryInterface, Sequelize) => {
-        return queryInterface.createTable('Token', {
+        return queryInterface.createTable('Tokens', {
             // id: {
             //     allowNull: false,
             //     autoIncrement: true,
@@ -11,7 +11,6 @@ module.exports = {
             userId: {
                 type: Sequelize.INTEGER,
                 allowNull: false,
-                unique: true,
                 onDelete: 'CASCADE',
                 references: {
                     key: 'id',
@@ -26,6 +25,6 @@ module.exports = {
         });
     },
     down: (queryInterface, Sequelize) => {
-        return queryInterface.dropTable('Token');
+        return queryInterface.dropTable('Tokens');
     }
 };
