@@ -23,8 +23,9 @@ class Auth extends Component {
             <div>
                 <input type={"Email"} placeholder={"Email"} name={'email'} value={email} onChange={this.onChangeInput} />
                 <input type={"Password"} placeholder={"Password"} name={'password'} value={password} onChange={this.onChangeInput} />
-                <button onClick={() => this.props.authAction({...this.state, navigate: this.props.history.push})}>Authentication</button>
+                <button onClick={() => this.props.authAction({...this.state, path: this.props.history.push})}>Authentication</button>
             </div>
+            //navigate->path
         );
     }
 }

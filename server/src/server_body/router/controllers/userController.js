@@ -17,27 +17,32 @@ module.exports.getAllUsers = (req, res, next) => {
 };
 
 module.exports.createUser = (req, res, next) => {
+
     Users.findOrCreate({
         where: {
+            email: req.body.email
+        },
+        defaults:{
             email: req.body.email,
             password: bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(salt.bcryptSalt))
         }
     })
-        .then((result) => {
-            const token = jwtToken.sign({email: result[0].email, id: result[0].id}, tokenSalt, {expiresIn: '12h'});
+        .then(([user,created]) => {
+            const token = jwtToken.sign({email: user.email, id: user.id}, tokenSalt, {expiresIn: '12h'});
             res.status(200);
             res.json({
-                success: true,
-                message: 'User created',
-                token: token
+                success: created,
+                message: created?'User created':'Email is exist, user not created.',
+                token: created?token:null
             });
         })
         .catch(err => {
+            console.log("Users.findOrCreate err - " + err);
             res.status(406);
             res.json({
                 status: res.statusCode,
                 success: false,
-                message: 'Email is exist, user not created, From User controller',
+                message: 'Something wrong, user not created, From User controller',
                 error: err.message
             })
         });

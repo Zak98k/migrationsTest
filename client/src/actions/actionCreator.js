@@ -1,9 +1,9 @@
 import ACTION from './actiontsTypes';
 
-export const authAction = (login) => {
+export const authAction = (auth) => {
   return {
-    type: ACTION.LOGIN,
-    login
+    type: ACTION.AUTH,
+    auth
   };
 };
 

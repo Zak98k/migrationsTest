@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f3ff12-f24d-4776-98a7-ceee1154ddde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/actions/actiontsTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/api/baseURL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/api/rest/restContoller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/boot/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/boot/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Registration/Registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/userReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/sagas/UserSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/sagas/rootSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/schemas/SchemaBoduUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/server_body/utils/errorHandler" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/feb1b067-981a-46cd-80ea-b06f923d8105.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/feb1b067-981a-46cd-80ea-b06f923d8105.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/feb1b067-981a-46cd-80ea-b06f923d8105/storage_v2/_src_/database/testdb.kHS3yw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/feb1b067-981a-46cd-80ea-b06f923d8105/storage_v2/_src_/database/testdb.kHS3yw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/resource/image/LOGO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/resource/image/LOGO_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/resource/image/LOGO_3x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/actionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/actionCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/actiontsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/actiontsTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/rest/restContoller.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/rest/restContoller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Registration/Registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/sagas/rootSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sagas/rootSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/schemas/SchemaBoduUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/schemas/UserSchemaBody.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/migrations/080420190800-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/migrations/kill/080420190800-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/models/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/models/kill/Tokens.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/models/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/models/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/server_body/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/seeders/20190409151240-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/seeders/20190409151240-user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/seeders/20190409151737-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/seeders/kill/20190409151737-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/utils/AppError.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/utils/AppError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/server_body/utils/validationMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server_body/utils/validationMiddleware.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,46 +94,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#473#636#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding>
+                <element signature="e#273#284#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/server_body/utils/validationMiddleware.js">
+        <entry file="file://$PROJECT_DIR$/client/src/App.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -186,7 +147,6 @@
         <option value="$PROJECT_DIR$/server/.gitignore" />
         <option value="$PROJECT_DIR$/server/public/index.html" />
         <option value="$PROJECT_DIR$/server/.sequelizerc" />
-        <option value="$PROJECT_DIR$/server/package.json" />
         <option value="$PROJECT_DIR$/server/src/server_body/models/Token.js" />
         <option value="$PROJECT_DIR$/server/src/server_body/models/Tokens.js" />
         <option value="$PROJECT_DIR$/server/src/server_body/migrations/080420190800-token.js" />
@@ -198,12 +158,21 @@
         <option value="$PROJECT_DIR$/server/src/index.js" />
         <option value="$PROJECT_DIR$/server/src/server_body/utils/AppError.js" />
         <option value="$PROJECT_DIR$/server/src/server_body/utils/errorHandler" />
-        <option value="$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/server/src/server_body/router/index.js" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
-        <option value="$PROJECT_DIR$/client/src/actions/actionCreator.js" />
-        <option value="$PROJECT_DIR$/client/src/pages/Auth/Auth.js" />
         <option value="$PROJECT_DIR$/server/src/server_body/utils/validationMiddleware.js" />
+        <option value="$PROJECT_DIR$/server/src/server_body/router/index.js" />
+        <option value="$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/client/src/actions/actiontsTypes.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/actionCreator.js" />
+        <option value="$PROJECT_DIR$/client/src/api/rest/restContoller.js" />
+        <option value="$PROJECT_DIR$/client/src/index.js" />
+        <option value="$PROJECT_DIR$/client/src/sagas/rootSaga.js" />
+        <option value="$PROJECT_DIR$/client/src/sagas/UserSaga.js" />
+        <option value="$PROJECT_DIR$/client/src/pages/Auth/Auth.js" />
+        <option value="$PROJECT_DIR$/client/src/App.css" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/client/src/App.sass" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
       </list>
     </option>
   </component>
@@ -213,8 +182,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1110" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1301" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -233,28 +202,33 @@
             <path>
               <item name="migrationsTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="migrationsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="migrationsTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="migrationsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="migrationsTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="migrationsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server_body" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="migrationsTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="migrationsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="migrationsTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="migrationsTest" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server_body" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +246,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ECMAScript 6" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/resource/image" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -280,15 +254,16 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/resource/image" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/server/src/server_body/migrations" />
+      <recent name="$PROJECT_DIR$/server/src/server_body" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/server_body/seeders/kill" />
       <recent name="$PROJECT_DIR$/server/src/server_body/models/kill" />
       <recent name="$PROJECT_DIR$/server/src/server_body/migrations/kill" />
-      <recent name="$PROJECT_DIR$/server/src/server_body" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src" />
-      <recent name="$PROJECT_DIR$/server/src/server_body/migrations" />
       <recent name="$PROJECT_DIR$/server/src/server_body" />
     </key>
   </component>
@@ -326,7 +301,10 @@
       <workItem from="1555070525351" duration="10757000" />
       <workItem from="1555091024709" duration="9252000" />
       <workItem from="1555101576591" duration="11866000" />
-      <workItem from="1555148492242" duration="243000" />
+      <workItem from="1555148492242" duration="3913000" />
+      <workItem from="1555307200370" duration="2066000" />
+      <workItem from="1555499525775" duration="2193000" />
+      <workItem from="1556303744354" duration="9528000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1554894474347</created>
@@ -349,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554983156162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11.04">
+      <created>1555148848815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555148848815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68767000" />
+    <option name="totallyTimeSpent" value="86224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,9 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1014" extended-state="6" />
+    <frame x="-4" y="0" width="1374" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20685434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2060606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,8 +370,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4994664" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49621212" visible="true" weight="0.23589166" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5037879" side_tool="true" weight="0.35409835" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49469697" visible="true" weight="0.23114754" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.505303" side_tool="true" weight="0.23114754" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32949308" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,7 +382,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.28457773" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.044696968" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,21 +395,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.04" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/server_body/services/salt/salt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Token" />
-    <entry file="file://$PROJECT_DIR$/server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -555,14 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Users" />
     <entry file="file://$PROJECT_DIR$/server/src/server_body/utils/AppError.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -576,46 +539,6 @@
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/actionCreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/pages/Auth/Auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="128" selection-start-line="25" selection-start-column="128" selection-end-line="25" selection-end-column="128" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/server_body/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/userReducer.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -635,13 +558,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+    <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Users" />
+    <entry file="file://$PROJECT_DIR$/server/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -652,31 +583,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/server_body/router/controllers/userController.js">
+    <entry file="file://$PROJECT_DIR$/server/src/server_body/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/baseURL.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/boot/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#473#636#0" />
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/client/src/boot/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="das://feb1b067-981a-46cd-80ea-b06f923d8105/database/testdb/schema/public/table/Users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/schemas/UserSchemaBody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/api/rest/restContoller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/sagas/rootSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/actiontsTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/userReducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/sagas/UserSaga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/pages/Auth/Auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/resource/image/LOGO.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <element signature="e#273#284#0" />
+          </folding>
         </state>
       </provider>
     </entry>

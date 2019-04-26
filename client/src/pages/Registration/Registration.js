@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {createAccountAction} from "../../actions/actionCreator";
 import connect from 'react-redux/es/connect/connect';
-import schemaBodyUser from '../../schemas/SchemaBoduUser';
+import schemaBodyUser from '../../schemas/UserSchemaBody';
 
 class Registration extends Component {
 
